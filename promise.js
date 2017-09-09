@@ -10,15 +10,13 @@ var asyncAdd = (a, b) => {
   });  
 };
 
-asyncAdd(10, 15).then((res) => {
+asyncAdd(10, '15').then((res) => {
   console.log('Result:', res);
   return asyncAdd(res, 10);
-}, (errorMessage) => {
-  console.log(errorMessage); 
 }).then((res) => {
  console.log('Should be 35', 'Result:', res); 
-}, (errorMessage) => {
- console.log('Arguments should be numbers'); 
+}).catch((errorMessage) => {
+ console.log(errorMessage); 
 })
 
 // var somePromise = new Promise((resolve, reject) => {
