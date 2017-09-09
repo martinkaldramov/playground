@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "promise-2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinkaldramov/playground.git"
+  },
+  "author": "Martin Kaldramov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinkaldramov/playground/issues"
+  },
+  "homepage": "https://github.com/martinkaldramov/playground#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
