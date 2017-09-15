@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/martinkaldramov/playground#readme",
   "dependencies": {
+    "mongodb": "^2.2.5",
     "request": "^2.81.0"
   }
 }
