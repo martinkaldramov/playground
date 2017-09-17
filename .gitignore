@@ -1,4 +1,5 @@
 .tern-project
 *.swp
+*.swo
 
 node_modules/
